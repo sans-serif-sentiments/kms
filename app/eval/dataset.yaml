@@ -1,0 +1,45 @@
+- id: leave-pto
+  question: "Who approves PTO requests longer than 10 days and where do I submit the request?"
+  expected_answer: "Workday submission with VP approval for >10 days"
+  expected_sources:
+    - kb/policies/HR-002-leave-policy.md
+- id: leave-contact
+  question: "Share the HR leave specialist's contact information."
+  expected_answer: "Lina Ooi with hr-leave@company.com and Slack handle"
+  expected_sources:
+    - kb/policies/HR-002-leave-policy.md
+- id: sec-sev1
+  question: "What is the response timeline for SEV1 incidents and who leads the SOC?"
+  expected_answer: "SOC lead Mateo Alvarez coordinates containment within 1 hour"
+  expected_sources:
+    - kb/policies/SEC-002-security-incident-response.md
+- id: travel-cap
+  question: "What is the hotel cap in tier-1 cities and who runs the Travel Desk?"
+  expected_answer: "$220/night cap with Priya Kulkarni as Travel Desk contact"
+  expected_sources:
+    - kb/policies/FIN-001-expense-and-travel-policy.md
+- id: mental-health
+  question: "I'm feeling burnt out. What support does the company offer?"
+  expected_answer: "Reference HR-003 wellness policy and EAP contacts"
+  expected_sources:
+    - kb/policies/HR-003-mental-health-support.md
+- id: revops-escalation
+  question: "A deal has wrong territory and AI assist bug—how do I escalate?"
+  expected_answer: "RevOps escalation SOP with RevOps alias and DevOps escalation"
+  expected_sources:
+    - kb/processes/PR-004-revops-escalation.md
+- id: product-bridge
+  question: "When a product incident affects customers, how do we coordinate enablement updates?"
+  expected_answer: "Follow PT-004 bridge with PM + Priya coordination"
+  expected_sources:
+    - kb/patterns/PT-004-product-enable-bridge.md
+- id: langgraph-overview
+  question: "Give me a quick overview of LangGraph and who owns it here."
+  expected_answer: "Pull from LG-* docs and CO-LG-001 contacts"
+  expected_sources:
+    - kb/langraph/agent-development.md
+    - kb/langraph/CO-LG-001-governance.md
+- id: world-question
+  question: "What's happening in the world economy today?"
+  expected_answer: "Respond with general guidance, no internal citations"
+  expected_sources: []
