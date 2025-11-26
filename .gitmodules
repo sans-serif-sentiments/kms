@@ -1,3 +1,0 @@
-[submodule "kb_repo"]
-	path = kb_repo
-	url = git@github.com:sans-serif-sentiments/knowledge-repo.git
